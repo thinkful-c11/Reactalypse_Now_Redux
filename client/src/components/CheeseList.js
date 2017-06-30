@@ -16,6 +16,11 @@ export class CheeseList extends React.Component{
         );
     return (
       <div className='listMyCheese'>
+        <form className="cheese-form">
+          <label for="cheese-name-form">Cheese</label>
+            <input type="text" name="cheese-name" id="cheese-name" placeholder="Cheese Here" required/>
+          <button type="submit" id="submit-form">Submit</button>
+        </form>
         <ul>
           {mapMyCheeses}
         </ul>
