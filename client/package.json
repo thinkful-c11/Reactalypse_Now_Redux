@@ -2,14 +2,6 @@
   "name": "thinkful-full-stack-template-client",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-redux": "^5.0.5",
-    "redux": "^3.7.1",
-    "redux-thunk": "^2.2.0",
-    "react-scripts": "1.0.10"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,5 +11,13 @@
   "proxy": "http://localhost:3001",
   "engines": {
     "node": "8.1.2"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-scripts": "^1.0.10",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
   }
 }
